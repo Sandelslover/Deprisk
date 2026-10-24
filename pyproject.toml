@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deprisk"
+version = "0.1.0"
+description = "Dependency risk dashboard: outdated, vulnerable, EOL and upgrade-risk analysis for npm, PyPI and Cargo projects."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "deprisk" }]
+dependencies = []
+
+[project.scripts]
+deprisk = "deprisk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["deprisk*"]
