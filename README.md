@@ -17,7 +17,7 @@ No third-party Python packages are required (stdlib only; Python 3.9+).
 ## Install
 
 ```powershell
-cd C:\C-project\deprisk
+cd /deprisk
 py -3 -m pip install -e .
 deprisk --help
 ```
