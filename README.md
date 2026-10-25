@@ -1,4 +1,4 @@
-# deprisk — dependency risk dashboard
+# deprisk — dependency risk detective
 
 A dependency-free Python CLI that analyzes a software project's dependencies and
 produces a risk dashboard for pull requests. It parses dependency manifests,
